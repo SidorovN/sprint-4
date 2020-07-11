@@ -1,0 +1,27 @@
+.video__container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px,500px));
+  gap: 18px;
+  grid-row: auto;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+  
+  .video__container {
+    gap: 16px;
+    grid-template-columns: repeat(2, minmax(300px,456px));
+  }
+
+}
+
+
+@media screen and (max-width: 720px) {
+  
+  .video__container {
+    grid-template-columns: repeat(auto-fill, minmax(300px,400px));
+    }
+
+}
+

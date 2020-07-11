@@ -1,0 +1,31 @@
+.place__link {  
+  width: 49%;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.place__link::before {
+  content: 'URL';
+  position: absolute;
+  top: -22px;
+  left: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2em;  
+  color: #AAAAAA;
+  opacity: 1;
+}
+
+.place__link:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 720px) {
+  .place__link {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+@import url(./__link/navigation__link.css);
+@import url(./__list/navigation__list.css);
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {  
+  
+  .navigation__list {    
+    flex-direction: column;
+  }
+
+}

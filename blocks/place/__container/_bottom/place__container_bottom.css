@@ -1,0 +1,12 @@
+.place__container.place__container_bottom {
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .place__container.place__container_bottom:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+}

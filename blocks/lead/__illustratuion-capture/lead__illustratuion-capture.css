@@ -1,0 +1,19 @@
+.lead__illustratuion-capture {
+  margin: 0;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__illustratuion-capture {    
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .lead__illustratuion-capture {    
+    margin-left: 16px;
+  }
+}

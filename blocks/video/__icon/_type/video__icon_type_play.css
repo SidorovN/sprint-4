@@ -1,0 +1,24 @@
+.video__icon_type_play {
+  z-index: 2;
+  position: absolute;
+  display: block;
+  top: 30px;
+  left: 30px;
+
+  transition: transform .3s ease-in-out;
+}
+
+.video__icon_type_play:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+  
+  .video__icon_type_play {
+    top: 25px;
+    left: 25px;
+  }
+
+}
+
+

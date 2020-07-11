@@ -1,0 +1,7 @@
+.lead__illustratuion-image {
+  width: 100%;
+  max-width: 984px;
+  object-fit: contain;
+  margin: 0;
+  margin-bottom: 11px;
+}

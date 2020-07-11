@@ -1,0 +1,14 @@
+.place__image {
+  width: 47%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 720px) {
+
+  .place__image {
+    flex-grow: 1;    
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+}

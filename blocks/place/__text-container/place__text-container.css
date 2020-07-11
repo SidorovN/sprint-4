@@ -1,0 +1,11 @@
+.place__text-container {  
+  width: 49%;
+}
+
+@media screen and (max-width: 720px) {
+  
+  .place__text-container {
+    width: 100%;
+  }
+
+}

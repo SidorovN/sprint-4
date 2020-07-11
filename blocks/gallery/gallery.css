@@ -1,0 +1,24 @@
+@import url(./__photo/gallery__photo.css);
+
+.gallery {
+  padding-top: 92px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gallery {
+    gap: 15px;
+    grid-template-columns: 1fr;
+    padding-top: 64px;
+  }
+}

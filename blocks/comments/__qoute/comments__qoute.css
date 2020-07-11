@@ -1,0 +1,24 @@
+.comments__qoute {
+  display: block;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;  
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .comments__qoute {
+    margin-bottom: 16px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  
+  .comments__qoute {
+    margin: 0;
+    order: 1;
+  }
+
+}

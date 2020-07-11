@@ -1,0 +1,39 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding-top: 274px;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .cover__link {
+    padding-top: 211px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  
+  .cover__link {
+    padding-top: 165px;
+  }
+
+}
+
+@media screen and (max-width: 720px) {  
+  
+  .cover__link {    
+    padding-top: 28vw;
+  }
+
+}

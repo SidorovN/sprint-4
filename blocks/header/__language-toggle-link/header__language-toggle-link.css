@@ -1,0 +1,24 @@
+@import url(./_active/header__language-toggle-link_active.css);
+
+.header__language-toggle-link {
+  font-size: 24px;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-left: 18px;
+  color: #fff;
+}
+
+.header__language-toggle-link:hover {
+  opacity: .6;
+}
+
+
+@media screen and (max-width: 720px) {  
+  
+  .header__language-toggle-link {    
+    font-size: 18px;
+    line-height: 96.82%;
+  }
+
+}
+

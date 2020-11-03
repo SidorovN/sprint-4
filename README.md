@@ -8,4 +8,4 @@ HTML5, CSS3
 * БЭМ-именование классов
 * Файловая структура по БЭМ
 ### Ссылка для просмотра
-https://sidorovn.github.io/sprint-4/
+https://sidorovn.github.io/travel/
